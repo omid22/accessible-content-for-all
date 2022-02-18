@@ -6,50 +6,50 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <h1>The Pangolin</h1>
+  <ul>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#navigation">Jump to navigation</a></li>
+  </ul>
+
   <header role="banner">
-    <a href="#">Jump to main content</a>
-    <a href="#">Jump to navigation</a>
-    <nav role="navigation">
+    <h1>The Pangolin</h1>
+    <nav role="navigation" id="navigation">
       <ul>
-        <li><a href="#"></a>Pangolin</li>
-        <li><a href="Description"></a>Description</li>
-        <li><a href="Behaviour"></a>Behaviour</li>
-        <li><a href="Conservation"></a>Conservation</li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#behaviour">Behaviour</a></li>
+        <li><a href="#conservation">Conservation</a></li>
       </ul>
     </nav>
   </header>
 
   <img src="images/pangolin.jpg" alt="a pangolin chilling" aria-details="a-pangolin-chilling">
-  <main role="main">
+  <main role="main" id="main">
     <section>
-      <article>
-        <h2 id="description">Description</h2>
-        <p>Some countries where pangolins are found</p>
-        <ul>
-          <li>Botswana</li>
-          <li>Kenya</li>
-          <li>Mozambique</li>
-          <li>Namibia</li>
-          <li>South Africa</li>
-          <li>Tanzania</li>
-          <li>Uganda</li>
-          <li>Zambia</li>
-          <li>Zimbabwe</li>
-        </ul>
-      </article>
-
-      <article>
-        <h2 id="behaviour">Behaviour</h2>
-        <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label=" Read more about Pangolin behaviour">Read more</a>
-      </article>
-
-      <article>
-        <h2 id="conservation">Conservation</h2>
-        <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label=" Read more about Pangolin conservation">Read more</a>
-      </article>
-
+      <h2 id="description">Description</h2>
+      <p>Some countries where pangolins are found</p>
+      <ul>
+        <li>Botswana</li>
+        <li>Kenya</li>
+        <li>Mozambique</li>
+        <li>Namibia</li>
+        <li>South Africa</li>
+        <li>Tanzania</li>
+        <li>Uganda</li>
+        <li>Zambia</li>
+        <li>Zimbabwe</li>
+      </ul>
     </section>
+
+    <section>
+      <h2 id="behaviour">Behaviour</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label=" Read more about Pangolin behaviour">Read more</a>
+    </section>
+
+    <section>
+      <h2 id="conservation">Conservation</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label=" Read more about Pangolin conservation">Read more</a>
+    </section>
+
   </main>
 
   <footer role="contentinfo">
